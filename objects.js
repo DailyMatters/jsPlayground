@@ -31,3 +31,7 @@ function Person(identification){
         alert('I am ' + this.name + ' of the ' + language + ' language.');
     };
 };
+
+//Usage:
+var NewPerson = new Person('Alberto');
+NewPerson.sayNameLanguage('portuguese');
