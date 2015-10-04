@@ -3,8 +3,8 @@ This is a repository for experiences and theory on javascript. I use this reposi
 
 Currently:
 - Closures
+- Objects ( Ongoing )
 
 To do:
-- Objects
 - Prototype
 - Ajax
