@@ -1,5 +1,7 @@
 'use strict';
 
+/* https://github.com/sitepoint-editors/fastr */
+
 angular.module('searchApp', [])
   .controller('searchController', function($scope, $http){
     var pendingTask;
