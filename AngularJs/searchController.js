@@ -26,12 +26,13 @@ angular.module('searchApp', [])
        .success(function(response){ $scope.results = response; });
     }
 
-	//Change this
+	//Change or delete this
     $scope.update = function(movie){
       $scope.search = movie.Title;
       $scope.change();
     };
 
+	//Change or delete this
     $scope.select = function(){
       this.setSelectionRange(0, this.value.length);
     }	
